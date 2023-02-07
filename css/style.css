@@ -50,7 +50,7 @@
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
-    
+    margin-bottom: 100px;
 }
 
 .btn-spotify {
@@ -113,7 +113,6 @@
 /*** Header ***/
 #home {
     display: flex;
-    height: 70vh;
     margin-bottom: 6rem;
     /* background: url(../img/bg-header.png) left top no-repeat; */
     background-color: #FFDEE9;
@@ -128,7 +127,7 @@ background-image: linear-gradient(0deg, #e1deff 0%, #B5FFFC 100%);
     color: var(--dark);
 }
 
-.btn-play {
+/* .btn-play {
     position: relative;
     display: block;
     box-sizing: content-box;
@@ -139,9 +138,9 @@ background-image: linear-gradient(0deg, #e1deff 0%, #B5FFFC 100%);
     outline: none !important;
     padding: 18px 20px 20px 28px;
     background: var(--primary);
-}
+} */
 
-.btn-play:before {
+/* .btn-play:before {
     content: "";
     position: absolute;
     z-index: 0;
@@ -154,9 +153,9 @@ background-image: linear-gradient(0deg, #e1deff 0%, #B5FFFC 100%);
     background: var(--primary);
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
-}
+} */
 
-.btn-play:after {
+/* .btn-play:after {
     content: "";
     position: absolute;
     z-index: 1;
@@ -169,7 +168,7 @@ background-image: linear-gradient(0deg, #e1deff 0%, #B5FFFC 100%);
     background: #FFFFFF;
     border-radius: 100%;
     transition: all 200ms;
-}
+} */
 
 .btn-play span {
     display: block;
