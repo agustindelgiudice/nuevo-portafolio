@@ -43,21 +43,28 @@
 /*** Button ***/
 .btn {
     font-weight: 500;
+    width: 100%;
     transition: .5s;
 }
 
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
+    
+}
+
+.btn-spotify {
+    background-color: #58c322 !important;
+    color: white;
 }
 
 .btn-square {
-    width: 38px;
+    width: 100%;
     height: 38px;
 }
 
 .btn-sm-square {
-    width: 32px;
+    width: 100%;
     height: 32px;
 }
 
@@ -105,10 +112,13 @@
 
 /*** Header ***/
 #home {
+    display: flex;
+    height: 70vh;
     margin-bottom: 6rem;
     /* background: url(../img/bg-header.png) left top no-repeat; */
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #e1deff 0%, #B5FFFC 100%);
+
     
     
 }
@@ -448,4 +458,19 @@
     border-radius: 10px;
 }
 
+#tab-2 .visually-hidden {
+    background-color: #FFC448;
+}
 
+.text-spotify {
+    color: #58c322 !important;
+    
+}
+
+.spotify-playlist {
+    color: #58c322;
+}
+
+#btnCv {
+    margin-left: 50px;
+}

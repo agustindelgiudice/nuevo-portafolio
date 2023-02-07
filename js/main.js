@@ -26,7 +26,7 @@
     });
 
 
-    // Smooth scrolling on the navbar links
+    //Desplazamiento suave en los enlaces de la barra de navegación
     $(".navbar-nav a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
